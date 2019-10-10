@@ -5,14 +5,16 @@
 			"entity":"&#x1f3a8;",
 			"code":":art:",
 			"description":"Improving structure / format of the code.",
-			"name":"art"
+			"name":"art",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"⚡️",
 			"entity":"&#x26a1;",
 			"code":":zap:",
 			"description":"Improving performance.",
-			"name":"zap"
+			"name":"zap",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🔥",
@@ -33,13 +35,14 @@
 			"entity": "&#128657;",
 			"code": ":ambulance:",
 			"description": "Critical hotfix.",
-			"name": "ambulance"
+			"name": "ambulance",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"✨",
 			"entity":"&#x2728;",
 			"code":":sparkles:",
-			"description":"Introducing new features.",
+			"description":"Introducing new sparkless.",
 			"name":"sparkles"
 		},
 		{
@@ -47,139 +50,159 @@
 			"entity":"&#x1f4dd;",
 			"code":":pencil:",
 			"description":"Writing docs.",
-			"name":"pencil"
+			"name":"pencil",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🚀",
 			"entity":"&#x1f680;",
 			"code":":rocket:",
 			"description":"Deploying stuff.",
-			"name":"rocket"
+			"name":"rocket",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"💄",
 			"entity":"&#ff99cc;",
 			"code":":lipstick:",
 			"description":"Updating the UI and style files.",
-			"name":"lipstick"
+			"name":"lipstick",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🎉",
 			"entity":"&#127881;",
 			"code":":tada:",
 			"description":"Initial commit.",
-			"name":"tada"
+			"name":"tada",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"✅",
 			"entity":"&#x2705;",
 			"code":":white_check_mark:",
 			"description":"Updating tests.",
-			"name":"white-check-mark"
+			"name":"white-check-mark",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🔒",
 			"entity":"&#x1f512;",
 			"code":":lock:",
 			"description":"Fixing security issues.",
-			"name":"lock"
+			"name":"lock",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🍎",
 			"entity":"&#x1f34e;",
 			"code":":apple:",
 			"description":"Fixing something on macOS.",
-			"name":"apple"
+			"name":"apple",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🐧",
 			"entity":"&#x1f427;",
 			"code":":penguin:",
 			"description":"Fixing something on Linux.",
-			"name":"penguin"
+			"name":"penguin",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🏁",
 			"entity":"&#x1f3c1;",
 			"code":":checkered_flag:",
 			"description":"Fixing something on Windows.",
-			"name":"checkered-flag"
+			"name":"checkered-flag",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🤖",
 			"entity":"&#129302;",
 			"code":":robot:",
 			"description":"Fixing something on Android.",
-			"name":"robot"
+			"name":"robot",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🍏",
 			"entity":"&#127823;",
 			"code":":green_apple:",
 			"description":"Fixing something on iOS.",
-			"name":"green-apple"
+			"name":"green-apple",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🔖",
 			"entity":"&#x1f516;",
 			"code":":bookmark:",
 			"description":"Releasing / Version tags.",
-			"name":"bookmark"
+			"name":"bookmark",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🚨",
 			"entity":"&#x1f6a8;",
 			"code":":rotating_light:",
 			"description":"Removing linter warnings.",
-			"name":"rotating-light"
+			"name":"rotating-light",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"🚧",
 			"entity":"&#x1f6a7;",
 			"code":":construction:",
 			"description":"Work in progress.",
-			"name":"construction"
+			"name":"construction",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"💚",
 			"entity":"&#x1f49a;",
 			"code":":green_heart:",
 			"description":"Fixing CI Build.",
-			"name":"green-heart"
+			"name":"green-heart",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"⬇️",
 			"entity":"⬇️",
 			"code":":arrow_down:",
 			"description":"Downgrading dependencies.",
-			"name":"arrow-down"
+			"name":"arrow-down",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"⬆️",
 			"entity":"⬆️",
 			"code":":arrow_up:",
 			"description":"Upgrading dependencies.",
-			"name":"arrow-up"
+			"name":"arrow-up",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "📌",
 			"entity": "&#x1F4CC;",
 			"code": ":pushpin:",
 			"description": "Pinning dependencies to specific versions.",
-			"name": "pushpin"
+			"name": "pushpin",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"👷",
 			"entity":"&#x1f477;",
 			"code":":construction_worker:",
 			"description":"Adding CI build system.",
-			"name":"construction-worker"
+			"name":"construction-worker",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"📈",
 			"code":":chart_with_upwards_trend:",
 			"description":"Adding analytics or tracking code.",
-			"name":"chart-with-upwards-trend"
+			"name":"chart-with-upwards-trend",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"♻️",
@@ -193,42 +216,48 @@
 			"entity":"&#x1f433;",
 			"code":":whale:",
 			"description":"Work about Docker.",
-			"name":"whale"
+			"name":"whale",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"➕",
 			"entity":"&#10133;",
 			"code":":heavy_plus_sign:",
 			"description":"Adding a dependency.",
-			"name":"heavy-plus-sign"
+			"name":"heavy-plus-sign",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"➖",
 			"entity":"&#10134;",
 			"code":":heavy_minus_sign:",
 			"description":"Removing a dependency.",
-			"name":"heavy-minus-sign"
+			"name":"heavy-minus-sign",
+			"parentName": "fire"
 		},
 		{
 			"emoji":"🔧",
 			"entity":"&#x1f527;",
 			"code":":wrench:",
 			"description":"Changing configuration files.",
-			"name":"wrench"
+			"name":"wrench",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "🌐",
 			"entity": "&#127760;",
 			"code": ":globe_with_meridians:",
 			"description": "Internationalization and localization.",
-			"name": "globe-with-meridians"
+			"name": "globe-with-meridians",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"✏️",
 			"entity":"&#59161;",
 			"code":":pencil2:",
 			"description":"Fixing typos.",
-			"name":"pencil"
+			"name":"pencil",
+			"parentName": "bug"
 		},
 		{
 			"emoji":"💩",
@@ -270,14 +299,16 @@
 			"entity":"&#1F69A;",
 			"code":":truck:",
 			"description":"Moving or renaming files.",
-			"name":"truck"
+			"name":"truck",
+			"parentName": "refactor"
 		},
 		{
 			"emoji":"📄",
 			"entity":"&#1F4C4;",
 			"code":":page_facing_up:",
 			"description":"Adding or updating license.",
-			"name":"page-facing-up"
+			"name":"page-facing-up",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"💥",
@@ -291,28 +322,32 @@
 			"entity":"&#1F371",
 			"code":":bento:",
 			"description":"Adding or updating assets.",
-			"name":"bento"
+			"name":"bento",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"👌",
 			"entity":"&#x1f44c;",
 			"code":":ok_hand:",
 			"description":"Updating code due to code review changes.",
-			"name":"ok-hand"
+			"name":"ok-hand",
+			"parentName": "bug"
 		},
 		{
 			"emoji": "♿️",
 			"entity":"&#9855;",
 			"code": ":wheelchair:",
 			"description":"Improving accessibility.",
-			"name":"wheelchair"
+			"name":"wheelchair",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "💡",
 			"entity":"&#128161;",
 			"code": ":bulb:",
 			"description":"Documenting source code.",
-			"name":"bulb"
+			"name":"bulb",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "🍻",
@@ -326,35 +361,40 @@
 			"entity":"&#128172;",
 			"code": ":speech_balloon:",
 			"description": "Updating text and literals.",
-			"name":"speech-balloon"
+			"name":"speech-balloon",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "🗃",
 			"entity":"&#128451;",
 			"code": ":card_file_box:",
 			"description": "Performing database related changes.",
-			"name":"card-file-box"
+			"name":"card-file-box",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🔊",
 			"entity":"&#128266;",
 			"code":":loud_sound:",
 			"description":"Adding logs.",
-			"name":"loud-sound"
+			"name":"loud-sound",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji":"🔇",
 			"entity":"&#128263;",
 			"code":":mute:",
 			"description":"Removing logs.",
-			"name":"mute"
+			"name":"mute",
+			"parentName": "fire"
 		},
 		{
 			"emoji": "👥",
 			"entity": "&#128101;",
 			"code": ":busts_in_silhouette:",
 			"description": "Adding contributor(s).",
-			"name": "busts-in-silhouette"
+			"name": "busts-in-silhouette",
+			"parentName": "sparkles"
 		},
 		{
 			"emoji": "🚸",
