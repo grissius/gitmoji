@@ -1,88 +1,104 @@
 https://stackoverflow.com/questions/48075169/semantic-commit-type-when-remove-something
 
-build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-ci: Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
-docs: Documentation only changes
-feat: A new feature
-fix: A bug fix
-perf: A code change that improves performance
-refactor: A code change that neither fixes a bug nor adds a feature
-style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-test: Adding missing tests or correcting existing tests
 
-FIX
+fix: A bug fix
+fix (bug fix for the user, not a fix to a build script)
 🐛 Fixing a bug.
-🚑 Critical hotfix.
-🚨 Removing linter warnings.
-🔒 Fixing security issues.
-🍎 Fixing something on macOS.
-🐧 Fixing something on Linux.
-🏁 Fixing something on Windows.
-🤖 Fixing something on Android.
-🍏 Fixing something on iOS.
+    🚑 Critical hotfix.
+    🔒 Fixing security issues.
+    🍎 Fixing something on macOS.
+    🐧 Fixing something on Linux.
+    🏁 Fixing something on Windows.
+    🤖 Fixing something on Android.
+    🍏 Fixing something on iOS.
 💚 Fixing CI Build.
 ✏️ Fixing typos.
 
-
-IMPROVE
-🎨 Improving structure / format of the code.
+perf: A code change that improves performance
 ⚡️ Improving performance.
-📝 Writing docs.
-✅ Updating tests.
+
+refactor: A code change that neither fixes a bug nor adds a feature
+refactor (refactoring production code, eg. renaming a variable)
+
 ♻️ Refactoring code.
-♿️ Improving accessibility.
-💬 Updating text and literals.
-🚸 Improving user experience / usability.
-🔍 Improving SEO
-💡 Documenting source code.
+    🎨 Improving structure / format of the code.
+    🔥 Removing code or files.
+    🏗 Making architectural changes.
+    🏷️ Adding or updating types (Flow, TypeScript)
+    📦 Updating compiled files or packages.
+    👽 Updating code due to external API changes.
+    📌 Pinning dependencies to specific versions.
+        ➕ Adding a dependency.
+        ➖ Removing a dependency.
+        ⬇️ Downgrading dependencies.
+        ⬆️ Upgrading dependencies.
+    🚧 Work in progress.
+    🔖 Releasing / Version tags.
+    ⏪ Reverting changes.
+    🔀 Merging branches.
+    👌 Updating code due to code review changes.
+    🚚 Moving or renaming files.
+    🗃 Performing database related changes.
+    🔧 Changing configuration files.
+    🐳 Work about Docker.
+    ☸️ Work about Kubernetes
+
+test: Adding missing tests or correcting existing tests
+test (adding missing tests, refactoring tests; no production code change)
+
+✅ Updating tests.
+    🤡 Mocking things.
+    📸 Adding or updating snapshots
+
+docs: Documentation only changes
+docs (changes to the documentation)
+📝 Writing docs.
+    💡 Documenting source code.
+    📄 Adding or updating license.
+    👥 Adding contributor(s).
 
 
+style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+style (formatting, missing semi colons, etc; no production code change)
 
-REMOVE
-🔥 Removing code or files.
+🚨 Removing linter warnings.
 
-ADD
-✨ Introducing new features.
+
+build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+chore (updating grunt tasks etc; no production code change)
+
 🚀 Deploying stuff.
-🎉 Initial commit.
-💄 Updating the UI and style files.
-🔖 Releasing / Version tags.
 👷 Adding CI build system.
-📈 Adding analytics or tracking code.
-🔊 Adding logs.
-🤡 Mocking things.
-🥚 Adding an easter egg.
-
-
-🚧 Work in progress.
-⬇️ Downgrading dependencies.
-⬆️ Upgrading dependencies.
-📌 Pinning dependencies to specific versions.
-
-➕ Adding a dependency.
-➖ Removing a dependency.
-🔧 Changing configuration files.
-🐳 Work about Docker.
-🌐 Internationalization and localization.
-
-💩 Writing bad code that needs to be improved.
-⏪ Reverting changes.
-🔀 Merging branches.
-📦 Updating compiled files or packages.
-👽 Updating code due to external API changes.
-🚚 Moving or renaming files.
-📄 Adding or updating license.
-🍱 Adding or updating assets.
-💥 Introducing breaking changes.
-👌 Updating code due to code review changes.
-🍻 Writing code drunkenly.
-🗃 Performing database related changes.
-🔇 Removing logs.
-👥 Adding contributor(s).
-🏗 Making architectural changes.
-📱 Working on responsive design.
 🙈 Adding or updating a .gitignore file
-📸 Adding or updating snapshots
+
+
+
+
+ci: Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
+
+feat: A new feature
+feat (new feature for the user, not a new feature for build script)
+
+✨ Introducing new features.
+    📈 Adding analytics or tracking code.
+    🔊 Adding logs.
+    🔇 Removing logs.
+    🥚 Adding an easter egg.
+    💥 Introducing breaking changes.
+    🚸 Improving user experience / usability.
+        ♿️ Improving accessibility.
+        🌐 Internationalization and localization.
+        📱 Working on responsive design.
+        🔍 Improving SEO
+    💬 Updating text and literals.
+    💄 Updating the UI and style files.
+        🍱 Adding or updating assets.
+    🎉 Initial commit.
+
+
+junk
+💩 Writing bad code that needs to be improved.
+🍻 Writing code drunkenly.
 ⚗ Experimenting new things
-☸️ Work about Kubernetes
-🏷️ Adding or updating types (Flow, TypeScript)
+
+
